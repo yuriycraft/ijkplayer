@@ -4,10 +4,10 @@ Pod::Spec.new do |s|
   s.summary      = "ijkplayer framework."
 
   s.description  = <<-DESC
-bilibili/ijkplayer k0.8.8  IJKMediaFramework 上传到 cococapods
+yuriycraft/ijkplayer  IJKMediaFramework cococapods
                    DESC
 
-  s.homepage     = "https://github.com/iOSDevLog/ijkplayer"
+  s.homepage     = "https://github.com/yuriycraft/ijkplayer"
 
   s.license      = { :type => "GNU Lesser General Public License v2.1", :text => <<-LICENSE
 		   GNU LESSER GENERAL PUBLIC LICENSE
@@ -21,7 +21,7 @@ bilibili/ijkplayer k0.8.8  IJKMediaFramework 上传到 cococapods
 
   s.platform     = :ios, "7.0"
 
-  s.source       = { :http => "https://raw.githubusercontent.com/iOSDevLog/ijkplayer/master/IJKMediaFramework.framework.zip" }
+  s.source       = { :http => "https://github.com/yuriycraft/ijkplayer/blob/master/IJKMediaFramework.framework.zip" }
   # s.source       = { :http => "https://github.com/iOSDevLog/ijkplayer/releases/download/#{s.version}/IJKMediaFramework.framework.zip" }
 
   s.vendored_frameworks = 'IJKMediaFrameworkWith.framework'
