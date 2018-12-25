@@ -24,7 +24,7 @@ pod 'ijkplayer'
 <!--pod 'ijkplayerssl', '~> 1.1.3'-->
 <!--```-->
 
-OC 参考ijkplayer项目，Swift SSL 参考ijkplayer-Swift项目。
+OC 参考ijkplayer项目，Swift  参考ijkplayer-Swift项目。
 
 ## OC
 
@@ -39,7 +39,7 @@ platform :ios, '9.0' # Use Safe Area Layout Guides
 use_frameworks!
 ```
 
-1. 添加 *Project*-Bridge-Header.h -> "#import <IJKMediaFrameworkWithSSL/IJKMediaFrameworkWithSSL.h>"
+1. 添加 *Project*-Bridge-Header.h -> "#import <IJKMediaFramework/IJKMediaFramework.h>"
 1. Build Settings -> Ojbective-C Bridging Header -> "*Project*/*Project*-Bridge-Header.h"
 
 # Contributors
